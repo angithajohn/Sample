@@ -12,6 +12,6 @@ cd /home/kaiser/DNN_projects/SPDL7_Line_Crossing && python3 people_counter.py --
 
 
 
-
+adwgs
 
 
