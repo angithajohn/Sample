@@ -1,0 +1,17 @@
+python3 /home/kaiser/DNN_projects/SPDL1_Fire_Detection/Fire Detection/fire-detection-cnn-master/fire.py test.mp4 4567
+
+python3 /home/kaiser/DNN_projects/SPDL11_Vehicle_Identification/vehicle_api.py
+
+python3 /home/kaiser/DNN_projects/SPDL12_Face_Mask_Detection/detect_mask_video.py
+
+python3 /home/kaiser/DNN_projects/SPDL4_Object_Detection/obj.py
+
+cd /home/kaiser/DNN_projects/SPDL7_Line_Crossing && python3 people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt --model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4 --output output/output_01.avi
+
+./human_pose_estimation_demo -r -i czy1/czy1.mp4 -m human-pose-estimation-0001.xml -d CPU
+
+
+
+
+
+
